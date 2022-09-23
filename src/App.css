@@ -17,6 +17,7 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   margin-bottom: 25px;
+  background: rgb(92 151 140 / 19%);
 }
 
 
@@ -30,6 +31,7 @@
   text-transform: none;
   background: #3210b6;
   color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 9px 3px rgb(16 182 71 / 13%);
 }
 
 .container-base {
