@@ -1,38 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  font-family: 'Merriweather', serif;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header2 {
+  border: 3px solid rgb(3, 140, 17);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.style-btn {
+  padding: 14px;
+  border-radius: 12px / 20px;
+  -webkit-border-radius: 12px / 20px;
+  -moz-border-radius: 12px / 20px;
+  -ms-border-radius: 12px / 20px;
+  -o-border-radius: 12px / 20px;
+  text-transform: none;
+  background: #3210b6;
+  color: rgb(255, 255, 255);
+}
+
+.container-base {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fit {
+  width: 350px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.new {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  border: 1px solid rgba(3, 91, 96, 0.491);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-family: 'Libre Baskerville', serif;
 }
